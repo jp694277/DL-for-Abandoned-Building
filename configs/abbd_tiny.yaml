@@ -1,0 +1,9 @@
+MODEL:
+  NUM_CLASSES: 3
+DATASETS:
+  TRAIN: ("abbd", )
+  TEST: ("abbd_test", )
+OUTPUT_DIR: 'outputs/abbd_tiny'
+SOLVER:
+  MAX_ITER: 24
+  LR_STEPS: [16, 20]

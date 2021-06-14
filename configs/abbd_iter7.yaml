@@ -1,0 +1,13 @@
+# 从头开始以0.75的阈值用大约28k张训练集图片迭代160k次
+
+MODEL:
+  NUM_CLASSES: 3
+  THRESHOLD: 0.75
+DATASETS:
+  TRAIN: ("abbd", )
+  TEST: ("abbd_test", )
+OUTPUT_DIR: 'outputs/abbd_iter7'
+SOLVER:
+  MAX_ITER: 160000
+  LR_STEPS: [110000, 135000]
+

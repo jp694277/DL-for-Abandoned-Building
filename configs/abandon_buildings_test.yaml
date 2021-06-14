@@ -1,0 +1,9 @@
+MODEL:
+  NUM_CLASSES: 2
+DATASETS:
+  TRAIN: ("abandon_buildings", )
+  TEST: ("abandon_buildings_test", )
+OUTPUT_DIR: 'outputs/abandon_buildings_test'
+SOLVER:
+  MAX_ITER: 24
+  LR_STEPS: [16, 20]
