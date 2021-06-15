@@ -1,5 +1,5 @@
-# DL-for-Abundant-Building
+# DL-for-Abandoned-Building
 
-## 废弃建筑物深度学习模型完善与空间分析
+## DL and Spatial Analysis for Abandoned Building
 
 RCNN-AlexNet, RCNN-ResNet, RCNN-SSD
